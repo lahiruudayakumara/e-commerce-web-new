@@ -1,0 +1,38 @@
+.containerService {
+    padding: 20px auto;
+    margin-right: 5px;
+
+}
+
+.service__item {
+    padding: 15px;
+    background: var(--card-bg-01);
+    display: flex;
+    align-items: center;
+    column-gap: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1.5rem;
+}
+
+.service__item span i {
+    font-size: 1.3rem;
+    background: var(--primary-color);
+    padding: 10px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 400 !important;
+}
+
+.service__item h3 {
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.service__item p {
+    font-size: 0.8rem;
+    margin-top: 5px;
+    color: #222;
+}

@@ -1,0 +1,57 @@
+.container__hero {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+  
+.row {
+   display: flex;
+   justify-content: space-between;
+}
+  
+.column {
+    flex: 1;
+    padding: 2px;
+}
+
+.hero__section {
+    background: var(--hero-bg);
+}
+
+.hero__content h2 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 20px 0px;
+    pointer-events: none;
+}
+
+.hero__content p {
+    color: var(--primary-color);
+    line-height: 20px;
+    pointer-events: none;
+}
+
+.hero__section p:nth-child(1) {
+    font-weight: 500;
+}
+
+.shop__btn {
+    border: none;
+    outline: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 40px;
+}
+
+.shop__btn a:hover {
+    color: #fff;
+}
+
+.hero__content {
+    padding-top: 45px;
+}
